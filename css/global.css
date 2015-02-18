@@ -1,0 +1,16 @@
+h1, .h1 {
+    font-size: 45px;
+}
+
+.navbar {
+    border-bottom:1px solid #eee;
+}
+.page-content {
+    margin-top:65px;
+    padding-bottom:15px;
+    border-bottom: 1px solid #eee;
+}
+
+.push-down-top {
+    margin-top:25px;
+}

@@ -1,0 +1,19 @@
+<div class="row">
+    <div class="col-sm-8">
+        <div ui-view>
+            <h1>Articles</h1>
+            <p>
+                I've had the pleasure of writing for CODE
+                Magazine for a number of years. Select an
+                article title for more information.
+            </p>
+        </div>
+    </div>
+    <div class="col-sm-3 col-sm-offset-1 push-down-top">
+        <ul class="list-group">
+            <li class="list-group-item" ng-repeat="article in articles">
+                <a ui-sref="articles.article({pageName: '{{article.pageName}}'})">{{article.title}}</a>
+            </li>
+        </ul>
+    </div>
+</div>
