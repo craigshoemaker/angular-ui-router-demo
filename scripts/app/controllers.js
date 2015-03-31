@@ -18,8 +18,6 @@
                 ['$scope', '$state',
         function ($scope,   $state) {
 
-            debugger;
-
             $scope.navigate = function () {
                 $state.go('articles');
             };
